@@ -4,7 +4,6 @@ import java.util.ArrayList;
 public class Race {
     private ArrayList<String> raceList = new ArrayList<>();
     public Race(String character, String attribute) {
-        raceList.clear();
         switch (attribute) {
             case "Fire":
                 switch (character) {
@@ -286,7 +285,7 @@ public class Race {
                     case "ビッグイノベーター":
                         raceList.add("コスモ族");
                         break;
-                    case "ロイぜ":
+                    case "ロイゼ":
                     case "アラジン":
                     case "神威":
                     case "モンストブライト":
@@ -387,7 +386,7 @@ public class Race {
                 break;
         }
     }
-    public ArrayList getRaceList(){
+    public ArrayList<String> getRaceList(){
         return this.raceList;
     }
 }

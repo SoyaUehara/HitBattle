@@ -19,7 +19,7 @@ public class Read {
             System.out.println("ファイルがありません");
         }
     }
-    public ArrayList getList(){
+    public ArrayList<String> getList(){
         return this.List;
     }
 }
