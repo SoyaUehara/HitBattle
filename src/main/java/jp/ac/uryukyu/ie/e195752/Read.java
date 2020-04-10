@@ -16,7 +16,7 @@ public class Read {
                 this.List.add(str);
             }
         }catch(FileNotFoundException e){
-            System.out.println("ファイルがありません");
+            System.out.println("ファイル無し");
         }
     }
     public ArrayList<String> getList(){
