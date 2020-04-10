@@ -1,0 +1,26 @@
+package jp.ac.uryukyu.ie.e195752;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class RaceTest {
+    @Test
+    void raceTest(){//全てのキャラクターにデータの確認用　種族バージョン
+        String[] attributeList = {"Fire", "Water", "Wood", "Light", "Darkness"};
+        String attribute;
+        String character;
+        int count =0;
+        for (String i : attributeList){
+            Read elementList = new Read(i);
+            System.out.println("---------------------------------");
+            for (int a=0; a<elementList.getList().size(); a++){
+                character = elementList.getList().get(a);
+                Race race = new Race(character, i);
+                System.out.println(race.getRaceList());
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
