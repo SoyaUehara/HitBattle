@@ -9,7 +9,6 @@ class Battle_TypeTest {
     void battle_typeTest(){//全てのキャラクターにデータの確認用 撃種バージョン
         String[] attributeList = {"Fire", "Water", "Wood", "Light", "Darkness"};
         String character;
-        int count =0;
         for (String str : attributeList){
             Read elementList = new Read(str);
             System.out.println("---------------------------------");
@@ -17,9 +16,7 @@ class Battle_TypeTest {
                 character = elementList.getList().get(a);
                 Battle_Type battle = new Battle_Type(character, str);
                 System.out.println(battle.getBattle_typeList());
-                count++;
             }
         }
-        System.out.println(count);
     }
 }

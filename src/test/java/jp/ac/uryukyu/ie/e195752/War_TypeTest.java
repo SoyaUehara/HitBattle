@@ -9,7 +9,6 @@ class War_TypeTest {
     void war_typeTest(){//全てのキャラクターにデータの確認用　戦型バージョン
         String[] attributeList = {"Fire", "Water", "Wood", "Light", "Darkness"};
         String character;
-        int count =0;
         for (String i : attributeList){
             Read elementList = new Read(i);
             System.out.println("---------------------------------");
@@ -17,9 +16,7 @@ class War_TypeTest {
                 character = elementList.getList().get(a);
                 War_Type war = new War_Type(character, i);
                 System.out.println(war.getWar_typeList());
-                count++;
             }
         }
-        System.out.println(count);
     }
 }

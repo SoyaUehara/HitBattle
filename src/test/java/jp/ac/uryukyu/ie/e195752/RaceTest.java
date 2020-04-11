@@ -9,7 +9,6 @@ class RaceTest {
     void raceTest(){//全てのキャラクターにデータの確認用　種族バージョン
         String[] attributeList = {"Fire", "Water", "Wood", "Light", "Darkness"};
         String character;
-        int count =0;
         for (String i : attributeList){
             Read elementList = new Read(i);
             System.out.println("---------------------------------");
@@ -17,9 +16,7 @@ class RaceTest {
                 character = elementList.getList().get(a);
                 Race race = new Race(character, i);
                 System.out.println(race.getRaceList());
-                count++;
             }
         }
-        System.out.println(count);
     }
 }
