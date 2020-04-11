@@ -365,7 +365,7 @@ public class Race {
                         raceList.add("コスモ族");
                         break;
                     case "ジークフリート":
-                    case "ジャンヌ・ダルク":
+                    case "ジャンヌダルク":
                     case "ポルトス":
                     case "アリババ":
                     case "イージス":

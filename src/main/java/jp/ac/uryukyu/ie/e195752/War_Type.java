@@ -299,7 +299,7 @@ public class War_Type {
                         break;
                     case "ハーメルン":
                     case "ロキ":
-                    case "ジャンヌ・ダルク":
+                    case "ジャンヌダルク":
                     case "ルシファー":
                     case "アリババ":
                     case "フツヌシ":

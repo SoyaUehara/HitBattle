@@ -242,7 +242,7 @@ public class Battle_Type {
                     case "ジークフリート":
                     case "ハーレー":
                     case "ハーレーX":
-                    case "ジャンヌ・ダルク":
+                    case "ジャンヌダルク":
                     case "ケットシー":
                     case "ノブナガ":
                     case "ジキル&ハイド":
