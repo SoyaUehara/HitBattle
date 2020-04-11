@@ -74,9 +74,9 @@ public class Main {
                 Race race = new Race(character, attribute);
                 System.out.println(race.getRaceList());
                 break;
-            /*case "戦型":
+            case "戦型":
                 War_Type war_type = new War_Type(character, attribute);
-                System.out.println(war_type.getWar_typeList());*/
+                System.out.println(war_type.getWar_typeList());
             case "撃種":
                 Battle_Type battle_type = new Battle_Type(character, attribute);
                 System.out.println(battle_type.getBattle_typeList());

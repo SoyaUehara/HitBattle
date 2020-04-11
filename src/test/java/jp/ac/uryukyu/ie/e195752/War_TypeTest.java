@@ -4,19 +4,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Battle_TypeTest {
+class War_TypeTest {
     @Test
-    void battle_typeTest(){//全てのキャラクターにデータの確認用 撃種バージョン
+    void war_typeTest(){//全てのキャラクターにデータの確認用　戦型バージョン
         String[] attributeList = {"Fire", "Water", "Wood", "Light", "Darkness"};
         String character;
         int count =0;
-        for (String str : attributeList){
-            Read elementList = new Read(str);
+        for (String i : attributeList){
+            Read elementList = new Read(i);
             System.out.println("---------------------------------");
             for (int a=0; a<elementList.getList().size(); a++){
                 character = elementList.getList().get(a);
-                Battle_Type battle = new Battle_Type(character, str);
-                System.out.println(battle.getBattle_typeList());
+                War_Type war = new War_Type(character, i);
+                System.out.println(war.getWar_typeList());
                 count++;
             }
         }

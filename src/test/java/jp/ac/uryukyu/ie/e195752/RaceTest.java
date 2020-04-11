@@ -8,7 +8,6 @@ class RaceTest {
     @Test
     void raceTest(){//全てのキャラクターにデータの確認用　種族バージョン
         String[] attributeList = {"Fire", "Water", "Wood", "Light", "Darkness"};
-        String attribute;
         String character;
         int count =0;
         for (String i : attributeList){

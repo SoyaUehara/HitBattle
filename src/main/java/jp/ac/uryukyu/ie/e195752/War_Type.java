@@ -2,88 +2,317 @@ package jp.ac.uryukyu.ie.e195752;
 //戦型
 import java.util.ArrayList;
 public class War_Type {
-    /*private ArrayList<String> war_typeList = new ArrayList();
+    private ArrayList<String> war_typeList = new ArrayList<>();
     public War_Type(String character, String attribute){
-        war_typeList.clear();
         switch (attribute){
             case "Fire":
                 switch (character){
-                    case "":
-                        war_typeList.add("");
+                    case "坂本龍馬":
+                    case "ミカエル":
+                    case "ランスロットX":
+                    case "ブラフマー":
+                    case "ベートーヴェン":
+                    case "アトス":
+                    case "アポロ":
+                    case "シュリンガーラ":
+                    case "ダリア":
+                    case "ワルプルギス":
+                    case "サラマンダー":
+                    case "ルイス・キャロル":
+                    case "グングニル":
+                    case "モラル":
+                    case "シャイニーウィンガー":
+                    case "オオクニヌシ":
+                    case "孫悟空":
+                    case "テキーラα":
+                    case "メイ":
+                    case "大和":
+                    case "楊貴妃":
+                        war_typeList.add("バランス型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "アグナムートX":
+                    case "リンツー":
+                    case "ギルガメッシュ":
+                        war_typeList.add("パワー型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "アグナムート":
+                    case "真田幸村":
+                    case "HANZO":
+                    case "シンデレラ":
+                    case "モンストローズ":
+                    case "卑弥呼":
+                    case "ラザニー":
+                    case "ナスカ":
+                    case "張飛":
+                    case "トパーズ":
+                    case "マルス":
+                    case "フォーミュラ・アクセル":
+                    case "ゼフォン":
+                        war_typeList.add("スピード型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ノンノ":
+                    case "武田信玄":
+                    case "ガリレオ":
+                    case "スキッティ":
+                    case "犬坂毛野":
+                    case "サンダルフォンα":
+                    case "伏姫α":
+                    case "ウォッカ":
+                    case "足利義輝":
+                    case "ルビー":
+                    case "レクイエム":
+                        war_typeList.add("砲撃型");
                         break;
                 }
+                break;
             case "Water":
                 switch (character){
-                    case "":
-                        war_typeList.add("");
+                    case "ラファエル":
+                    case "ランスロット":
+                    case "アテナ":
+                    case "カーリー":
+                    case "テキーラ":
+                    case "ノブナガX":
+                    case "ダルタニャン":
+                    case "天草四郎":
+                    case "出雲":
+                    case "ナポレオン":
+                    case "カルナ":
+                    case "太公望":
+                    case "関羽":
+                    case "シンドバッド":
+                    case "プルメリア":
+                    case "パラドクス":
+                    case "ノンノα":
+                    case "ノア":
+                    case "媽祖":
+                    case "アクアマリン":
+                    case "ノストラダムス":
+                    case "アリババα":
+                    case "ブレイブアーマー":
+                    case "ミロク":
+                    case "レビィ":
+                        war_typeList.add("バランス型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "オーディン":
+                    case "ムーα":
+                    case "茨木童子α":
+                        war_typeList.add("パワー型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "スサノオ":
+                    case "ナナミ":
+                    case "アヌビス":
+                    case "ベイカーズ":
+                    case "ディルムッド":
+                    case "桂小五郎":
+                    case "シャトル・アクセル":
+                        war_typeList.add("スピード型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "霧隠才蔵":
+                    case "ウンディーネ":
+                    case "ロミオ":
+                    case "アイリス":
+                    case "ヴェルダンディ":
+                    case "ラプンツェル":
+                    case "ローレライ":
+                    case "グリム兄弟α":
+                    case "周瑜":
+                    case "フリーズ":
+                        war_typeList.add("砲撃型");
                         break;
                 }
+                break;
             case "Wood":
                 switch (character){
-                    case "":
-                        war_typeList.add("");
+                    case "ヴァルキリー":
+                    case "リボン":
+                    case "ケロン":
+                    case "バッハ":
+                    case "蒲公英":
+                    case "デッドラビッツ":
+                    case "クーフーリン":
+                    case "猪八戒":
+                    case "アポロX":
+                    case "茨木童子":
+                    case "おりょう":
+                    case "ベルフェゴール":
+                    case "ヴィーラ":
+                    case "デネブ":
+                    case "ニーベルンゲン":
+                    case "武蔵坊弁慶":
+                    case "ナイチンゲール":
+                    case "アメノウズメ":
+                    case "サタンα":
+                    case "シェイクスピア":
+                    case "西王母":
+                    case "ロビンフッド":
+                    case "ルイス・キャロルα":
+                    case "パールヴァティ":
+                    case "太公望α":
+                    case "バルムンク":
+                    case "水仙":
+                    case "スルガト":
+                        war_typeList.add("バランス型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ヘラクレス":
+                    case "伏姫":
+                    case "アンスリウム":
+                    case "オスカー":
+                    case "マモン":
+                    case "鄧艾":
+                    case "ビリー・ザ・キッド":
+                    case "天叢雲":
+                        war_typeList.add("パワー型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ギムレット":
+                    case "チンギスハン":
+                    case "アラミス":
+                    case "ナチョス":
+                    case "コルセア":
+                    case "守護ガブリエル":
+                    case "コンプレックス":
+                    case "エメラルド":
+                        war_typeList.add("スピード型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ハンターキング":
+                    case "マーリン":
+                    case "モンストクローバー":
+                    case "シェヘラザード":
+                    case "グリム兄弟":
+                    case "天使ガブリエル":
+                    case "陸奥宗光":
+                    case "ユピテル":
+                    case "宝蔵院胤栄":
+                        war_typeList.add("砲撃型");
                         break;
                 }
+                break;
             case "Light":
                 switch (character){
-                    case "":
-                        war_typeList.add("");
+                    case "ゴットストライク":
+                    case "ロイゼ":
+                    case "アラジン":
+                    case "ラー":
+                    case "ゼウス":
+                    case "天国ウリエル":
+                    case "地獄ウリエル":
+                    case "クレオパトラ":
+                    case "神威":
+                    case "安倍晴明":
+                    case "ドンキホーテ":
+                    case "アーサー":
+                    case "ヘラ":
+                    case "ケラノウス":
+                    case "ダイヤモンド":
+                    case "劉備":
+                    case "ワトソン":
+                    case "メタトロンα":
+                    case "テンペスト":
+                    case "芙蓉":
+                    case "アロンズロッド":
+                    case "スピカ":
+                    case "那須与一":
+                    case "カラミティ・ジェーン":
+                        war_typeList.add("バランス型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ムー":
+                    case "ラウドラ":
+                    case "ビッグイノベーター":
+                    case "タケミカヅチ":
+                    case "如意棒":
+                    case "グラバー":
+                    case "アンチテーゼ":
+                        war_typeList.add("パワー型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ヒカリ":
+                    case "ベルゼブブ":
+                    case "モンストブライト":
+                    case "清少納言":
+                    case "犬塚信乃":
+                    case "サルタヒコ":
+                    case "三蔵法師":
+                        war_typeList.add("スピード型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "キスキルリラ":
+                    case "モーツァルト":
+                    case "ジュリエット":
+                    case "リコル":
+                    case "サキュバス":
+                    case "ハイビスカス":
+                    case "ベビーアーク":
+                    case "シトリン":
+                    case "ゲイボルグ":
+                    case "リボンα":
+                    case "ドローン・アクセル":
+                    case "王元姫":
+                    case "ティターニア":
+                        war_typeList.add("砲撃型");
                         break;
                 }
+                break;
             case "Darkness":
                 switch (character){
-                    case "":
-                        war_typeList.add("");
+                    case "ワールド":
+                    case "ジークフリート":
+                    case "ハデス":
+                    case "ケットシー":
+                    case "ノブナガ":
+                    case "妲己":
+                    case "ポルトス":
+                    case "ティアラ":
+                    case "ローザ":
+                    case "ショコラ":
+                    case "アリス":
+                    case "ファントム":
+                    case "マッドハッター":
+                    case "アドゥブタ":
+                    case "イージス":
+                    case "フィン":
+                    case "クロノス":
+                    case "ベートーヴェンα":
+                    case "ミネルヴァ":
+                    case "グングニルα":
+                    case "ゴッホ":
+                    case "ブリューナク":
+                    case "司馬昭":
+                    case "トール":
+                        war_typeList.add("バランス型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "エクリプス":
+                    case "サタン":
+                    case "ハーレー":
+                    case "ハーレーX":
+                    case "オセロー":
+                    case "西郷隆盛":
+                    case "ベルスター":
+                        war_typeList.add("パワー型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ジキル&ハイド":
+                    case "源義経":
+                    case "大喬小喬":
+                    case "ギャランホルン":
+                    case "アレス":
+                    case "徳川家康":
+                    case "イデア":
+                    case "アトゥム":
+                        war_typeList.add("スピード型");
                         break;
-                    case "":
-                        war_typeList.add("");
+                    case "ハーメルン":
+                    case "ロキ":
+                    case "ジャンヌ・ダルク":
+                    case "ルシファー":
+                    case "アリババ":
+                    case "フツヌシ":
+                    case "レストレード":
+                    case "月麗":
+                    case "孫尚香":
+                        war_typeList.add("砲撃型");
                         break;
                 }
+                break;
         }
     }
-    public ArrayList getWar_typeList(){
+    public ArrayList<String> getWar_typeList(){
         return this.war_typeList;
-    }*/
+    }
 }
