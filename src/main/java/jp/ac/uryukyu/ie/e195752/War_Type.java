@@ -92,6 +92,7 @@ public class War_Type {
                     case "ブレイブアーマー":
                     case "ミロク":
                     case "レビィ":
+                    case "ヤタガラス":
                         war_typeList.add("バランス型");
                         break;
                     case "オーディン":

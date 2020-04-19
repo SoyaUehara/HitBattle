@@ -91,6 +91,7 @@ public class Race {
                     case "アヌビス":
                     case "媽祖":
                     case "ミロク":
+                    case "ヤタガラス":
                         raceList.add("神");
                         break;
                     case "ベイカーズ":

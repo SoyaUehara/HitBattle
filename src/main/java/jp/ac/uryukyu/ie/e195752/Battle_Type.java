@@ -91,6 +91,7 @@ public class Battle_Type {
                     case "シャトル・アクセル":
                     case "ミロク":
                     case "フリーズ":
+                    case "ヤタガラス":
                         battle_typeList.add("反射");
                         break;
                     case "霧隠才蔵":
