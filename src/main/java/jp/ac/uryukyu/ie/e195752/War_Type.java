@@ -30,12 +30,12 @@ public class War_Type {
                     case "楊貴妃":
                         war_typeList.add("バランス型");
                         break;
-                    case "アグナムートX":
+                    case "アグナムート":
                     case "リンツー":
                     case "ギルガメッシュ":
                         war_typeList.add("パワー型");
                         break;
-                    case "アグナムート":
+                    case "アグナムートX":
                     case "真田幸村":
                     case "HANZO":
                     case "シンデレラ":
@@ -152,6 +152,7 @@ public class War_Type {
                     case "バルムンク":
                     case "水仙":
                     case "スルガト":
+                    case "神威α":
                         war_typeList.add("バランス型");
                         break;
                     case "ヘラクレス":
@@ -246,6 +247,8 @@ public class War_Type {
                     case "ドローン・アクセル":
                     case "王元姫":
                     case "ティターニア":
+                    case "ハーレーα":
+                    case "クエリー":
                         war_typeList.add("砲撃型");
                         break;
                 }
@@ -276,6 +279,7 @@ public class War_Type {
                     case "ブリューナク":
                     case "司馬昭":
                     case "トール":
+                    case "ケロンα":
                         war_typeList.add("バランス型");
                         break;
                     case "エクリプス":

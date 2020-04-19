@@ -7,7 +7,7 @@ public class Battle_Type {
         switch (attribute){
             case "Fire":
                 switch (character){
-                    case "アグナムート":
+                    case "アグナムートX":
                     case "真田幸村":
                     case "ミカエル":
                     case "HANZO":
@@ -35,7 +35,7 @@ public class Battle_Type {
                     case "ゼフォン":
                         battle_typeList.add("反射");
                         break;
-                    case "アグナムートX":
+                    case "アグナムート":
                     case "リンツー":
                     case "坂本龍馬":
                     case "シンデレラ":
@@ -171,6 +171,7 @@ public class Battle_Type {
                     case "パールヴァティ":
                     case "水仙":
                     case "スルガト":
+                    case "神威α":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -230,6 +231,8 @@ public class Battle_Type {
                     case "アロンズロッド":
                     case "那須与一":
                     case "王元姫":
+                    case "ハーレーα":
+                    case "クエリー":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -270,6 +273,7 @@ public class Battle_Type {
                     case "ベルスター":
                     case "司馬昭":
                     case "トール":
+                    case "ケロンα":
                         battle_typeList.add("反射");
                         break;
                     case "ワールド":

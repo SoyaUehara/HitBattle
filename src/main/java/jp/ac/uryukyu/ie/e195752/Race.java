@@ -7,8 +7,8 @@ public class Race {
         switch (attribute) {
             case "Fire":
                 switch (character) {
-                    case "アグナムート":
                     case "アグナムートX":
+                    case "アグナムート":
                     case "ブラフマー":
                     case "オオクニヌシ":
                     case "伏姫α":
@@ -214,6 +214,7 @@ public class Race {
                     case "モンストクローバー":
                     case "オスカー":
                     case "ロビンフッド":
+                    case "神威α":
                         raceList.add("聖騎士");
                         break;
                     case "おりょう":
@@ -262,6 +263,7 @@ public class Race {
                         break;
                     case "如意棒":
                     case "ベビーアーク":
+                    case "ハーレーα":
                         raceList.add("魔族");
                         break;
                     case "天国ウリエル":
@@ -283,6 +285,7 @@ public class Race {
                         break;
                     case "ムー":
                     case "ビッグイノベーター":
+                    case "クエリー":
                         raceList.add("コスモ族");
                         break;
                     case "ロイゼ":
@@ -341,6 +344,7 @@ public class Race {
                     case "レストレード":
                     case "ベートーヴェンα":
                     case "ゴッホ":
+                    case "ケロンα":
                         raceList.add("亜人族");
                         break;
                     case "ハーレー":
