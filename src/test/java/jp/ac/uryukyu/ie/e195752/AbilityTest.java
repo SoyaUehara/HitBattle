@@ -14,8 +14,9 @@ class AbilityTest {
             System.out.println("---------------------------------");
             for (int a=0; a<elementList.getList().size(); a++){
                 character = elementList.getList().get(a);
-                Ability battle = new Ability(character, str);
-                System.out.println(battle.getAbilityList());
+                Ability ability = new Ability(character, str);
+                System.out.println(ability.getAbilityList());
+                System.out.println(ability.selectAbility(ability.getAbilityList()));
             }
         }
     }
