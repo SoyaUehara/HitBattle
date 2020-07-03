@@ -11,12 +11,10 @@ class AbilityTest {
         String character;
         for (String str : attributeList){
             Read elementList = new Read(str);
-            System.out.println("---------------------------------");
             for (int a=0; a<elementList.getList().size(); a++){
                 character = elementList.getList().get(a);
                 Ability ability = new Ability(character, str);
-                System.out.println(ability.getAbilityList());
-                System.out.println(ability.selectAbility(ability.getAbilityList()));
+                assertEquals(1,ability.selectAbility(ability.getAbilityList()).size());
             }
         }
     }

@@ -11,11 +11,10 @@ class RaceTest {
         String character;
         for (String i : attributeList){
             Read elementList = new Read(i);
-            System.out.println("---------------------------------");
             for (int a=0; a<elementList.getList().size(); a++){
                 character = elementList.getList().get(a);
                 Race race = new Race(character, i);
-                System.out.println(race.getRaceList());
+                assertEquals(1,race.getRaceList().size());
             }
         }
     }

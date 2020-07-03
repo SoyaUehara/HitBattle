@@ -11,11 +11,10 @@ class Battle_TypeTest {
         String character;
         for (String str : attributeList){
             Read elementList = new Read(str);
-            System.out.println("---------------------------------");
             for (int a=0; a<elementList.getList().size(); a++){
                 character = elementList.getList().get(a);
                 Battle_Type battle = new Battle_Type(character, str);
-                System.out.println(battle.getBattle_typeList());
+                assertEquals(1,battle.getBattle_typeList().size());
             }
         }
     }

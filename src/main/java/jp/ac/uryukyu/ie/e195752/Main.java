@@ -16,11 +16,11 @@ public class Main {
             character = elementList.getList().get(random.nextInt(elementList.getList().size()));//キャラを選ぶ
             //ここからゲームシステム構築部分
             System.out.println("選ばれた属性は"+attribute+"です。");
-            Question(character, attribute);
 
 
 
             while (true) {
+                Question(character, attribute);
                 System.out.println("答えを入力してください=>");
                 String str = scan.next();
                 if (str.equals(character)) {
@@ -68,31 +68,35 @@ public class Main {
         String[] QuestionList = {"種族","戦型","撃種","アビリティ","友情コンボ","SS","ラックスキル"};
         Scanner QuestionScan = new Scanner(System.in);
         System.out.println("質問してください");
-        String question = QuestionScan.next();
-        switch (question){
-            case "種族":
-                Race race = new Race(character, attribute);
-                System.out.println(race.getRaceList());
-                break;
-            case "戦型":
-                War_Type war_type = new War_Type(character, attribute);
-                System.out.println(war_type.getWar_typeList());
-            case "撃種":
-                Battle_Type battle_type = new Battle_Type(character, attribute);
-                System.out.println(battle_type.getBattle_typeList());
-            /*case "アビリティ":
-                Ability ability = new Ability(character, attribute);
-                System.out.println(ability.getAbilityList());
-            case "友情コンボ":
-                Friendship_Combo friendship_combo = new Friendship_Combo(character, attribute);
-                System.out.println(friendship_combo.getFriendship_comboList());
-            case "SS":
-                Strike_Shot strike_shot = new Strike_Shot(character, attribute);
-                System.out.println(strike_shot.getStrike_shotList());
-            case "ラックスキル":
-                Rack_Skills rack_skills = new Rack_Skills(character, attribute);
-                System.out.println(rack_skills.getRack_skillsList());*/
+            String question = QuestionScan.next();
+            switch (question) {
+                case "種族":
+                    Race race = new Race(character, attribute);
+                    System.out.println(race.getRaceList());
+                    break;
+                case "戦型":
+                    War_Type war_type = new War_Type(character, attribute);
+                    System.out.println(war_type.getWar_typeList());
+                    break;
+                case "撃種":
+                    Battle_Type battle_type = new Battle_Type(character, attribute);
+                    System.out.println(battle_type.getBattle_typeList());
+                    break;
+                case "アビリティ":
+                    Ability ability = new Ability(character, attribute);
+                    //System.out.println(ability.getAbilityList());
+                    System.out.println(ability.selectAbility(ability.getAbilityList()));
+                    break;
+                case "友情コンボ":
+                    Friendship_Combo friendship_combo = new Friendship_Combo(character, attribute);
+                    System.out.println(friendship_combo.getFriendship_comboList());
+                case "SS":
+                    Strike_Shot strike_shot = new Strike_Shot(character, attribute);
+                    System.out.println(strike_shot.getStrike_shotList());
+                case "ラックスキル":
+                    Rack_Skills rack_skills = new Rack_Skills(character, attribute);
+                    System.out.println(rack_skills.getRack_skillsList());
+            }
 
-        }
     }
 }

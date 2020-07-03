@@ -4,10 +4,11 @@ import java.util.ArrayList;
 
 //ラックスキル
 public class Rack_Skills {
-    /*private ArrayList<String> rack_skillsList = new ArrayList();
+    private ArrayList<String> rack_skillsList = new ArrayList<>();
     public Rack_Skills(String character, String attribute){
-        rack_skillsList.clear();
-        switch (attribute){
+        System.out.println(character);
+        System.out.println(attribute);
+        /*switch (attribute){
             case "Fire":
                 switch (character){
                     case "":
@@ -83,9 +84,9 @@ public class Rack_Skills {
                         rack_skillsList.add("");
                         break;
                 }
-        }
+        }*/
     }
-    public ArrayList getRack_skillsList(){
+    public ArrayList<String> getRack_skillsList(){
         return this.rack_skillsList;
-    }*/
+    }
 }
