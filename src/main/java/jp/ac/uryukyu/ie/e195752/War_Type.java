@@ -100,6 +100,7 @@ public class War_Type {
                     case "ミロク":
                     case "レビィ":
                     case "ヤタガラス":
+                    case "鈴蘭":
                     case "ニャルラトホテプ":
                     case"ノア&パンドラ":
                         war_typeList.add("バランス型");

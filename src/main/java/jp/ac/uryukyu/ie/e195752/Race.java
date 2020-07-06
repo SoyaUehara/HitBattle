@@ -82,8 +82,10 @@ public class Race {
                         break;
                     case "アラウィン":
                         raceList.add("魔人");
+                        break;
                     case "ナタ":
                         raceList.add("ロボット");
+                        break;
                 }
                 break;
             case "Water":
@@ -126,6 +128,7 @@ public class Race {
                     case "テキーラ":
                     case "アイリス":
                     case "プルメリア":
+                    case "鈴蘭":
                         raceList.add("妖精族");
                         break;
                     case "ウンディーネ":

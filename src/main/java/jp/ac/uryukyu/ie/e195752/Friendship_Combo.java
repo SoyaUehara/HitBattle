@@ -416,6 +416,11 @@ public class Friendship_Combo {
                     case "ヤタガラス"://4713
                         friendship_comboList.add("反射衝撃波12");
                         friendship_comboList.add("クロススティンガー");
+                        break;
+                    case "鈴蘭":
+                        friendship_comboList.add("超強クロスウェーブ");
+                        friendship_comboList.add("白爆発EL");
+                        break;
                     case "ノクターン":
                         friendship_comboList.add("全敵ロックオンレーザーL");
                         friendship_comboList.add("マーキングボム");
@@ -1107,6 +1112,7 @@ public class Friendship_Combo {
                     case "ケロンα"://4725
                         friendship_comboList.add("防御アップ");
                         friendship_comboList.add("スピードアップ");
+                        break;
                     case "TFA":
                         friendship_comboList.add("スクランブルレーザーL");
                         friendship_comboList.add("超強爆発");

@@ -98,6 +98,7 @@ public class Battle_Type {
                     case "ミロク":
                     case "フリーズ":
                     case "ヤタガラス":
+                    case "ノクターン":
                         battle_typeList.add("反射");
                         break;
                     case "霧隠才蔵":
@@ -117,6 +118,7 @@ public class Battle_Type {
                     case "ローレライ":
                     case "グリム兄弟α":
                     case "レビィ":
+                    case "鈴蘭":
                     case "ニャルラトホテプ":
                     case "ノア&パンドラ":
                     case "サラスヴァティ":
