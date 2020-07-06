@@ -33,6 +33,9 @@ public class Battle_Type {
                     case "マルス":
                     case "足利義輝":
                     case "ゼフォン":
+                    case "プロメテウス":
+                    case "ナタ":
+                    case "真田昌幸":
                         battle_typeList.add("反射");
                         break;
                     case "アグナムート":
@@ -57,6 +60,9 @@ public class Battle_Type {
                     case "楊貴妃":
                     case "ルビー":
                     case "レクイエム":
+                    case "アラウィン":
+                    case "珊瑚":
+                    case "アザトース":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -111,6 +117,9 @@ public class Battle_Type {
                     case "ローレライ":
                     case "グリム兄弟α":
                     case "レビィ":
+                    case "ニャルラトホテプ":
+                    case "ノア&パンドラ":
+                    case "サラスヴァティ":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -153,6 +162,8 @@ public class Battle_Type {
                     case "鄧艾":
                     case "ビリー・ザ・キッド":
                     case "天叢雲":
+                    case "ヨグソトース":
+                    case "島津義弘":
                         battle_typeList.add("反射");
                         break;
                     case "ギムレット":
@@ -173,6 +184,9 @@ public class Battle_Type {
                     case "水仙":
                     case "スルガト":
                     case "神威α":
+                    case "ユグドラシル":
+                    case "トート":
+                    case "楊セン":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -210,6 +224,10 @@ public class Battle_Type {
                     case "スピカ":
                     case "カラミティ・ジェーン":
                     case "ティターニア":
+                    case "真珠":
+                    case "王昭君":
+                    case "ペリノア":
+                    case "アーサー&ソロモン":
                         battle_typeList.add("反射");
                         break;
                     case "ゼウス":
@@ -234,6 +252,7 @@ public class Battle_Type {
                     case "王元姫":
                     case "ハーレーα":
                     case "クエリー":
+                    case "カメハメハ":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -275,6 +294,8 @@ public class Battle_Type {
                     case "司馬昭":
                     case "トール":
                     case "ケロンα":
+                    case "TFA":
+                    case "ルシファー&カエサル":
                         battle_typeList.add("反射");
                         break;
                     case "ワールド":
@@ -291,6 +312,10 @@ public class Battle_Type {
                     case "ゴッホ":
                     case "ブリューナク":
                     case "アトゥム":
+                    case "フビライハン":
+                    case "オペコ":
+                    case "茶々":
+                    case "大谷吉継":
                         battle_typeList.add("貫通");
                         break;
                 }

@@ -28,6 +28,10 @@ public class War_Type {
                     case "メイ":
                     case "大和":
                     case "楊貴妃":
+                    case "プロメテウス":
+                    case "アラウィン":
+                    case "珊瑚":
+                    case "静御前":
                         war_typeList.add("バランス型");
                         break;
                     case "アグナムート":
@@ -48,6 +52,8 @@ public class War_Type {
                     case "マルス":
                     case "フォーミュラ・アクセル":
                     case "ゼフォン":
+                    case "アザトース":
+                    case "ナタ":
                         war_typeList.add("スピード型");
                         break;
                     case "ノンノ":
@@ -61,6 +67,7 @@ public class War_Type {
                     case "足利義輝":
                     case "ルビー":
                     case "レクイエム":
+                    case "真田昌幸":
                         war_typeList.add("砲撃型");
                         break;
                 }
@@ -93,11 +100,14 @@ public class War_Type {
                     case "ミロク":
                     case "レビィ":
                     case "ヤタガラス":
+                    case "ニャルラトホテプ":
+                    case"ノア&パンドラ":
                         war_typeList.add("バランス型");
                         break;
                     case "オーディン":
                     case "ムーα":
                     case "茨木童子α":
+                    case "ノクターン":
                         war_typeList.add("パワー型");
                         break;
                     case "スサノオ":
@@ -119,6 +129,7 @@ public class War_Type {
                     case "グリム兄弟α":
                     case "周瑜":
                     case "フリーズ":
+                    case "サラスヴァティ":
                         war_typeList.add("砲撃型");
                         break;
                 }
@@ -154,6 +165,8 @@ public class War_Type {
                     case "水仙":
                     case "スルガト":
                     case "神威α":
+                    case "ユグドラシル":
+                    case "楊セン":
                         war_typeList.add("バランス型");
                         break;
                     case "ヘラクレス":
@@ -164,6 +177,8 @@ public class War_Type {
                     case "鄧艾":
                     case "ビリー・ザ・キッド":
                     case "天叢雲":
+                    case "ヨグソトース":
+                    case "島津義弘":
                         war_typeList.add("パワー型");
                         break;
                     case "ギムレット":
@@ -185,6 +200,7 @@ public class War_Type {
                     case "陸奥宗光":
                     case "ユピテル":
                     case "宝蔵院胤栄":
+                    case "トート":
                         war_typeList.add("砲撃型");
                         break;
                 }
@@ -215,6 +231,7 @@ public class War_Type {
                     case "スピカ":
                     case "那須与一":
                     case "カラミティ・ジェーン":
+                    case "アーサー&ソロモン":
                         war_typeList.add("バランス型");
                         break;
                     case "ムー":
@@ -233,6 +250,7 @@ public class War_Type {
                     case "犬塚信乃":
                     case "サルタヒコ":
                     case "三蔵法師":
+                    case "カメハメハ":
                         war_typeList.add("スピード型");
                         break;
                     case "キスキルリラ":
@@ -250,6 +268,9 @@ public class War_Type {
                     case "ティターニア":
                     case "ハーレーα":
                     case "クエリー":
+                    case "真珠":
+                    case "王昭君":
+                    case "ペリノア":
                         war_typeList.add("砲撃型");
                         break;
                 }
@@ -281,6 +302,7 @@ public class War_Type {
                     case "司馬昭":
                     case "トール":
                     case "ケロンα":
+                    case "大谷吉継":
                         war_typeList.add("バランス型");
                         break;
                     case "エクリプス":
@@ -300,6 +322,7 @@ public class War_Type {
                     case "徳川家康":
                     case "イデア":
                     case "アトゥム":
+                    case "オペコ":
                         war_typeList.add("スピード型");
                         break;
                     case "ハーメルン":
@@ -311,6 +334,10 @@ public class War_Type {
                     case "レストレード":
                     case "月麗":
                     case "孫尚香":
+                    case "TFA":
+                    case "フビライハン":
+                    case "茶々":
+                    case "ルシファー&カエサル":
                         war_typeList.add("砲撃型");
                         break;
                 }
