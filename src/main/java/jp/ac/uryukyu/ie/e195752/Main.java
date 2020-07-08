@@ -53,7 +53,7 @@ public class Main {
                         break;
                     } else if (str.equals("list")) {
                         Display(elementList.getList());
-                    } else if (str.equals("答え")) {
+                    } else if (str.equals("gZ+tKkcmMxV68")) {
                         System.out.println(character);
                     } else {
                         System.out.println("残念！");
