@@ -53,7 +53,7 @@ public class Main {
                         break;
                     } else if (str.equals("list")) {
                         Display(elementList.getList());
-                    } else if (str.equals("gZ+tKkcmMxV68")) {
+                    } else if (str.equals("gZ+tKkcmMxV68"))/*パスワードを入力すれば答えが出る*/ {
                         System.out.println(character);
                     } else {
                         System.out.println("残念！");
