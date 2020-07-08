@@ -78,6 +78,7 @@ public class Ability {
                     case "アポロ":
                         abilityList.add("超アンチ重力バリア");
                         abilityList.add("マインスイーパーL");
+                        break;
                     case "モンストローズ":
                         abilityList.add("超アンチ重力バリア");
                         abilityList.add("飛行");
@@ -1510,10 +1511,18 @@ public class Ability {
     public ArrayList<String> getAbilityList(){
         return this.abilityList;
     }
-    public ArrayList<String> selectAbility(ArrayList<String> List){
+    public ArrayList<String> selectAbility(ArrayList<String> List, ArrayList<String> sList){
         Random random = new Random();
         ArrayList<String> select = new ArrayList<>();
-        select.add(List.get(random.nextInt(List.size())));
+        for (String str : sList){
+            List.remove(str);
+        }
+        if (List.size()!=0){
+            select.add(List.get(random.nextInt(List.size())));
+            sList.add(select.get(0));
+        }else {
+            select.add("これ以上、このモンスターにアビリティはありません");
+        }
         return select;
     }
 }

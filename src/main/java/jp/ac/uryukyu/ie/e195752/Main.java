@@ -3,43 +3,69 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 public class Main {
-
     static public void main(String[] args){
+        ArrayList<String> selectList = new ArrayList<>();
         while (true) {
+            Scanner scan = new Scanner(System.in);
             String[] attributeList = {"Fire", "Water", "Wood", "Light", "Darkness"};
             String attribute;
             String character;
-            Scanner scan = new Scanner(System.in);
             Random random = new Random();
             attribute = attributeList[random.nextInt(attributeList.length)];//ファイルをとってくる
             Read elementList = new Read(attribute);//ファイルを読み込む。※ArrayListで保存
             character = elementList.getList().get(random.nextInt(elementList.getList().size()));//キャラを選ぶ
+
             //ここからゲームシステム構築部分
-            System.out.println("選ばれた属性は"+attribute+"です。");
-
-
-
-            while (true) {
-                Question(character, attribute);
-                System.out.println("答えを入力してください=>");
-                String str = scan.next();
-                if (str.equals(character)) {
-                    System.out.println("正解！！");
-                    System.out.println("正解は" + character + "でした");
-                    break;
-                } else if (str.equals("list")) {
-                    Display(elementList.getList());
-                } else if (str.equals("答え")) {
-                    System.out.println(character);
-                } else {
-                    System.out.println("残念！");
-                    System.out.println("不正解");
+            switch (attribute){
+                case "Fire":
+                    System.out.println("選ばれた属性は火です。");
+                case "Water":
+                    System.out.println("選ばれた属性は水です。");
+                case "Wood":
+                    System.out.println("選ばれた属性は木です。");
+                case "Light":
+                    System.out.println("選ばれた属性は光です。");
+                case "Darkness":
+                    System.out.println("選ばれた属性は闇です。");
+            }
+            Question(character, attribute, selectList);
+            boolean bo = true;
+            while (bo) {
+                while (true){
+                    System.out.println("Question or Answer");
+                    String q_a = scan.next();
+                    if (q_a.equals("Answer")){
+                        break;
+                    }
+                    else if (q_a.equals("Question")){
+                        Question(character, attribute, selectList);
+                    }else {
+                        System.out.println("正しく入力してください");
+                    }
+                }
+                while (true){
+                    System.out.println("答えを入力してください=>");
+                    String str = scan.next();
+                    if (str.equals(character)) {
+                        System.out.println("正解！！");
+                        System.out.println("正解は" + character + "でした");
+                        bo = false;
+                        break;
+                    } else if (str.equals("list")) {
+                        Display(elementList.getList());
+                    } else if (str.equals("答え")) {
+                        System.out.println(character);
+                    } else {
+                        System.out.println("残念！");
+                        System.out.println("不正解");
+                        break;
+                    }
                 }
             }
             System.out.println("もう一度、行いますか？");
-            System.out.println("Yes. or No.");
+            System.out.println("Yes or No");
             String str = scan.next();
-            if (str.equals("Yes.")){
+            if (str.equals("Yes")){
                 System.out.println("もう一度行います");
             }else{
                 break;
@@ -64,10 +90,17 @@ public class Main {
             }
         }
     }
-    static void Question(String character, String attribute){
-        String[] QuestionList = {"種族","戦型","撃種","アビリティ","友情コンボ","SS","ラックスキル"};
-        Scanner QuestionScan = new Scanner(System.in);
+    static void Question(String character, String attribute, ArrayList<String> list){
+        String[] QuestionList = {"種族","戦型","撃種","アビリティ","友情コンボ","ラックスキル"};
         System.out.println("質問してください");
+        for (int i=0; QuestionList.length>i; i++){
+            if (i == QuestionList.length-1){
+                System.out.println(QuestionList[i]);
+            }else {
+                System.out.print(QuestionList[i]+" ");
+            }
+        }
+        Scanner QuestionScan = new Scanner(System.in);
             String question = QuestionScan.next();
             switch (question) {
                 case "種族":
@@ -84,17 +117,22 @@ public class Main {
                     break;
                 case "アビリティ":
                     Ability ability = new Ability(character, attribute);
-                    System.out.println(ability.selectAbility(ability.getAbilityList()));
+                    String adding = ability.selectAbility(ability.getAbilityList(),list).toString();
+                    System.out.println(adding);
+                    list.add(adding);
                     break;
                 case "友情コンボ":
                     Friendship_Combo friendship_combo = new Friendship_Combo(character, attribute);
                     System.out.println(friendship_combo.getFriendship_comboList());
-                case "SS":
-                    Strike_Shot strike_shot = new Strike_Shot(character, attribute);
-                    System.out.println(strike_shot.getStrike_shotList());
+                    break;
                 case "ラックスキル":
                     Rack_Skills rack_skills = new Rack_Skills(character, attribute);
                     System.out.println(rack_skills.getRack_skillsList());
+                    break;
+                //SSはあまりにも難しいため後日実装予定
+                /*case "SS":
+                    Strike_Shot strike_shot = new Strike_Shot(character, attribute);
+                    System.out.println(strike_shot.getStrike_shotList());*/
             }
 
     }
