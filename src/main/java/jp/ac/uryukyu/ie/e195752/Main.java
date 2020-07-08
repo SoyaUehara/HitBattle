@@ -84,7 +84,6 @@ public class Main {
                     break;
                 case "アビリティ":
                     Ability ability = new Ability(character, attribute);
-                    //System.out.println(ability.getAbilityList());
                     System.out.println(ability.selectAbility(ability.getAbilityList()));
                     break;
                 case "友情コンボ":
