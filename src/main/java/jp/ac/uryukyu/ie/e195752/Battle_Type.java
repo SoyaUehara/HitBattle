@@ -2,7 +2,7 @@ package jp.ac.uryukyu.ie.e195752;
 import java.util.ArrayList;
 //撃種
 public class Battle_Type {
-    private ArrayList<String> battle_typeList = new ArrayList<>();
+    final private ArrayList<String> battle_typeList = new ArrayList<>();
     public Battle_Type(String character, String attribute){
         switch (attribute){
             case "Fire":
@@ -36,6 +36,7 @@ public class Battle_Type {
                     case "プロメテウス":
                     case "ナタ":
                     case "真田昌幸":
+                    case "マチュ・ピチュ":
                         battle_typeList.add("反射");
                         break;
                     case "アグナムート":
@@ -63,6 +64,8 @@ public class Battle_Type {
                     case "アラウィン":
                     case "珊瑚":
                     case "アザトース":
+                    case "静御前":
+                    case "ワトソンα":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -99,6 +102,9 @@ public class Battle_Type {
                     case "フリーズ":
                     case "ヤタガラス":
                     case "ノクターン":
+                    case "佐々木小次郎":
+                    case "アンデルセン":
+                    case "大和α":
                         battle_typeList.add("反射");
                         break;
                     case "霧隠才蔵":
@@ -122,6 +128,7 @@ public class Battle_Type {
                     case "ニャルラトホテプ":
                     case "ノア&パンドラ":
                     case "サラスヴァティ":
+                    case "モヘンジョダロ":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -166,6 +173,8 @@ public class Battle_Type {
                     case "天叢雲":
                     case "ヨグソトース":
                     case "島津義弘":
+                    case "アルキメデス":
+                    case "ミョルニル":
                         battle_typeList.add("反射");
                         break;
                     case "ギムレット":
@@ -189,6 +198,7 @@ public class Battle_Type {
                     case "ユグドラシル":
                     case "トート":
                     case "楊セン":
+                    case "セレナーデ":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -255,6 +265,9 @@ public class Battle_Type {
                     case "ハーレーα":
                     case "クエリー":
                     case "カメハメハ":
+                    case "パーシヴァル":
+                    case "アユタヤ":
+                    case "レンブラント":
                         battle_typeList.add("貫通");
                         break;
                 }
@@ -298,6 +311,8 @@ public class Battle_Type {
                     case "ケロンα":
                     case "TFA":
                     case "ルシファー&カエサル":
+                    case "パンドラ":
+                    case "孫悟空α":
                         battle_typeList.add("反射");
                         break;
                     case "ワールド":
@@ -318,6 +333,7 @@ public class Battle_Type {
                     case "オペコ":
                     case "茶々":
                     case "大谷吉継":
+                    case "コロンブス":
                         battle_typeList.add("貫通");
                         break;
                 }

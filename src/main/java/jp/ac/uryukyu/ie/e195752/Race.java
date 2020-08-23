@@ -2,7 +2,7 @@ package jp.ac.uryukyu.ie.e195752;
 //種族
 import java.util.ArrayList;
 public class Race {
-    private ArrayList<String> raceList = new ArrayList<>();
+    final private ArrayList<String> raceList = new ArrayList<>();
     public Race(String character, String attribute) {
         switch (attribute) {
             case "Fire":
@@ -81,9 +81,11 @@ public class Race {
                         raceList.add("アクシス");
                         break;
                     case "アラウィン":
+                    case "マチュ・ピチュ":
                         raceList.add("魔人");
                         break;
                     case "ナタ":
+                    case "ワトソンα":
                         raceList.add("ロボット");
                         break;
                 }
@@ -118,6 +120,7 @@ public class Race {
                     case "ローレライ":
                     case "グリム兄弟α":
                     case "ノア&パンドラ":
+                    case "アンデルセン":
                         raceList.add("亜人族");
                         break;
                     case "出雲":
@@ -134,6 +137,7 @@ public class Race {
                     case "ウンディーネ":
                     case "ロミオ":
                     case "フリーズ":
+                    case "モヘンジョダロ":
                         raceList.add("魔王");
                         break;
                     case "アクアマリン":
@@ -157,6 +161,7 @@ public class Race {
                     case "関羽":
                     case "桂小五郎":
                     case "周瑜":
+                    case "佐々木小次郎":
                         raceList.add("サムライ");
                         break;
                     case "カルナ":
@@ -164,6 +169,9 @@ public class Race {
                     case "ノクターン":
                     case "ニャルラトホテプ":
                         raceList.add("幻妖");
+                        break;
+                    case "大和α":
+                        raceList.add("アクシス");
                         break;
                 }
                 break;
@@ -175,6 +183,7 @@ public class Race {
                         break;
                     case "チンギスハン":
                     case "ナチョス":
+                    case "ミョルニル":
                         raceList.add("魔人");
                         break;
                     case "ハンターキング":
@@ -203,6 +212,7 @@ public class Race {
                     case "宝蔵院胤栄":
                     case "ビリー・ザ・キッド":
                     case "スルガト":
+                    case "アルキメデス":
                         raceList.add("亜人族");
                         break;
                     case "猪八戒":
@@ -250,6 +260,7 @@ public class Race {
                     case "ヴィーラ":
                     case "コンプレックス":
                     case "ヨグソトース":
+                    case "セレナーデ":
                         raceList.add("幻妖");
                         break;
                 }
@@ -283,6 +294,7 @@ public class Race {
                     case "王元姫":
                     case "王昭君":
                     case "カメハメハ":
+                    case "レンブラント":
                         raceList.add("亜人族");
                         break;
                     case "如意棒":
@@ -310,6 +322,7 @@ public class Race {
                     case "ムー":
                     case "ビッグイノベーター":
                     case "クエリー":
+                    case "アユタヤ":
                         raceList.add("コスモ族");
                         break;
                     case "ロイゼ":
@@ -327,6 +340,7 @@ public class Race {
                     case "真珠":
                     case "ペリノア":
                     case "アーサー&ソロモン":
+                    case "パーシヴァル":
                         raceList.add("聖騎士");
                         break;
                     case "犬塚信乃":
@@ -375,10 +389,12 @@ public class Race {
                     case "ケロンα":
                     case "TFA":
                     case "茶々":
+                    case "パンドラ":
                         raceList.add("亜人族");
                         break;
                     case "ハーレー":
                     case "ハーレーX":
+                    case "孫悟空α":
                         raceList.add("魔族");
                         break;
                     case "ケットシー":
@@ -397,6 +413,7 @@ public class Race {
                     case "エクリプス":
                     case "西郷隆盛":
                     case "徳川家康":
+                    case "コロンブス":
                         raceList.add("コスモ族");
                         break;
                     case "ジークフリート":

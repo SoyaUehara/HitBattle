@@ -2,7 +2,7 @@ package jp.ac.uryukyu.ie.e195752;
 //戦型
 import java.util.ArrayList;
 public class War_Type {
-    private ArrayList<String> war_typeList = new ArrayList<>();
+    final private ArrayList<String> war_typeList = new ArrayList<>();
     public War_Type(String character, String attribute){
         switch (attribute){
             case "Fire":
@@ -37,6 +37,7 @@ public class War_Type {
                     case "アグナムート":
                     case "リンツー":
                     case "ギルガメッシュ":
+                    case "ワトソンα":
                         war_typeList.add("パワー型");
                         break;
                     case "アグナムートX":
@@ -54,6 +55,7 @@ public class War_Type {
                     case "ゼフォン":
                     case "アザトース":
                     case "ナタ":
+                    case "マチュ・ピチュ":
                         war_typeList.add("スピード型");
                         break;
                     case "ノンノ":
@@ -103,6 +105,8 @@ public class War_Type {
                     case "鈴蘭":
                     case "ニャルラトホテプ":
                     case"ノア&パンドラ":
+                    case "佐々木小次郎":
+                    case "アンデルセン":
                         war_typeList.add("バランス型");
                         break;
                     case "オーディン":
@@ -131,6 +135,8 @@ public class War_Type {
                     case "周瑜":
                     case "フリーズ":
                     case "サラスヴァティ":
+                    case "モヘンジョダロ":
+                    case "大和α":
                         war_typeList.add("砲撃型");
                         break;
                 }
@@ -168,6 +174,8 @@ public class War_Type {
                     case "神威α":
                     case "ユグドラシル":
                     case "楊セン":
+                    case "セレナーデ":
+                    case "アルキメデス":
                         war_typeList.add("バランス型");
                         break;
                     case "ヘラクレス":
@@ -202,6 +210,7 @@ public class War_Type {
                     case "ユピテル":
                     case "宝蔵院胤栄":
                     case "トート":
+                    case "ミョルニル":
                         war_typeList.add("砲撃型");
                         break;
                 }
@@ -233,6 +242,8 @@ public class War_Type {
                     case "那須与一":
                     case "カラミティ・ジェーン":
                     case "アーサー&ソロモン":
+                    case "パーシヴァル":
+                    case "アユタヤ":
                         war_typeList.add("バランス型");
                         break;
                     case "ムー":
@@ -252,6 +263,7 @@ public class War_Type {
                     case "サルタヒコ":
                     case "三蔵法師":
                     case "カメハメハ":
+                    case "レンブラント":
                         war_typeList.add("スピード型");
                         break;
                     case "キスキルリラ":
@@ -304,6 +316,9 @@ public class War_Type {
                     case "トール":
                     case "ケロンα":
                     case "大谷吉継":
+                    case "パンドラ":
+                    case "コロンブス":
+                    case "孫悟空α":
                         war_typeList.add("バランス型");
                         break;
                     case "エクリプス":

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 //SS
 public class Strike_Shot {
-    private ArrayList<String> strike_shotList = new ArrayList<>();
+    final private ArrayList<String> strike_shotList = new ArrayList<>();
     public Strike_Shot(String character, String attribute){
         switch (attribute){
             case "Fire":
