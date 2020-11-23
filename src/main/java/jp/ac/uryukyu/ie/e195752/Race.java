@@ -7,6 +7,9 @@ public class Race {
         switch (attribute) {
             case "Fire":
                 switch (character) {
+                    case "ヒナタ":
+                        raceList.add("ロボット族");
+                        break;
                     case "アグナムートX":
                     case "アグナムート":
                     case "ブラフマー":
@@ -15,6 +18,8 @@ public class Race {
                     case "ギルガメッシュ":
                     case "マルス":
                     case "プロメテウス":
+                    case "ペルセウス":
+                    case "オシリス":
                         raceList.add("神");
                         break;
                     case "リンツー":
@@ -28,6 +33,9 @@ public class Race {
                     case "フォーミュラ・アクセル":
                     case "ルビー":
                     case "珊瑚":
+                    case "ブリュンヒルデ":
+                    case "マナ":
+                    case "マナ・アニマ":
                         raceList.add("聖騎士");
                         break;
                     case "真田幸村":
@@ -37,6 +45,7 @@ public class Race {
                     case "足利義輝":
                     case "真田昌幸":
                     case "静御前":
+                    case "岩融":
                         raceList.add("サムライ");
                         break;
                     case "ミカエル":
@@ -93,6 +102,7 @@ public class Race {
             case "Water":
                 switch (character) {
                     case "ナナミ":
+                    case "ミソラ":
                         raceList.add("ロボット族");
                         break;
                     case "スサノオ":
@@ -106,6 +116,7 @@ public class Race {
                     case "ミロク":
                     case "ヤタガラス":
                     case "サラスヴァティ":
+                    case "ポセイドン":
                         raceList.add("神");
                         break;
                     case "ベイカーズ":
@@ -132,6 +143,7 @@ public class Race {
                     case "アイリス":
                     case "プルメリア":
                     case "鈴蘭":
+                    case "ラベンダー":
                         raceList.add("妖精族");
                         break;
                     case "ウンディーネ":
@@ -144,6 +156,8 @@ public class Race {
                         raceList.add("幻獣族");
                         break;
                     case "ムーα":
+                    case "シリウス":
+                    case "アトランティス":
                         raceList.add("コスモ族");
                         break;
                     case "ランスロット":
@@ -162,6 +176,7 @@ public class Race {
                     case "桂小五郎":
                     case "周瑜":
                     case "佐々木小次郎":
+                    case "上杉謙信":
                         raceList.add("サムライ");
                         break;
                     case "カルナ":
@@ -177,6 +192,9 @@ public class Race {
                 break;
             case "Wood":
                 switch (character) {
+                    case "コカゲ":
+                        raceList.add("ロボット族");
+                        break;
                     case "バルムンク":
                     case "エメラルド":
                         raceList.add("ドラゴン族");
@@ -198,6 +216,7 @@ public class Race {
                     case "天叢雲":
                     case "トート":
                     case "楊セン":
+                    case "ペルセポネ":
                         raceList.add("神");
                         break;
                     case "リボン":
@@ -213,6 +232,7 @@ public class Race {
                     case "ビリー・ザ・キッド":
                     case "スルガト":
                     case "アルキメデス":
+                    case "巴御前":
                         raceList.add("亜人族");
                         break;
                     case "猪八戒":
@@ -229,6 +249,7 @@ public class Race {
                     case "守護ガブリエル":
                     case "水仙":
                     case "ユグドラシル":
+                    case "ジャスミン":
                         raceList.add("妖精族");
                         break;
                     case "マーリン":
@@ -252,6 +273,7 @@ public class Race {
                     case "陸奥宗光":
                     case "鄧艾":
                     case "島津義弘":
+                    case "豊臣秀吉":
                         raceList.add("サムライ");
                         break;
                     case "コルセア":
@@ -282,6 +304,9 @@ public class Race {
                     case "ヘラ":
                     case "タケミカヅチ":
                     case "サルタヒコ":
+                    case "ガネーシャ":
+                    case "弁財天・進化":
+                    case "弁財天・神化":
                         raceList.add("神");
                         break;
                     case "クレオパトラ":
@@ -309,6 +334,7 @@ public class Race {
                     case "メタトロンα":
                     case "芙蓉":
                     case "ティターニア":
+                    case "牡丹":
                         raceList.add("妖精族");
                         break;
                     case "ゲイボルグ":
@@ -341,15 +367,19 @@ public class Race {
                     case "ペリノア":
                     case "アーサー&ソロモン":
                     case "パーシヴァル":
+                    case "ゾロ":
+                    case "マルタ":
                         raceList.add("聖騎士");
                         break;
                     case "犬塚信乃":
                     case "劉備":
                     case "那須与一":
+                    case "森蘭丸":
                         raceList.add("サムライ");
                         break;
                     case "ラウドラ":
                     case "アンチテーゼ":
+                    case "アリア":
                         raceList.add("幻妖");
                         break;
                 }
@@ -390,6 +420,8 @@ public class Race {
                     case "TFA":
                     case "茶々":
                     case "パンドラ":
+                    case "ダンテ":
+                    case "猿飛佐助":
                         raceList.add("亜人族");
                         break;
                     case "ハーレー":
@@ -430,7 +462,11 @@ public class Race {
                     case "孫尚香":
                     case "司馬昭":
                     case "大谷吉継":
+                    case "源頼光":
                         raceList.add("サムライ");
+                        break;
+                    case "P-47":
+                        raceList.add("ユニオン");
                         break;
                     case "アドゥブタ":
                     case "イデア":
