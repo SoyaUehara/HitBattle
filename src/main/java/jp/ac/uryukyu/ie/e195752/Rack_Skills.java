@@ -72,6 +72,7 @@ public class Rack_Skills {
                     case "ナタ":
                     case "マチュ・ピチュ":
                     case "ワトソンα":
+                    case "ブリュンヒルデ":
                         rack_skillsList.add("クリティカル");
                         break;
                 }

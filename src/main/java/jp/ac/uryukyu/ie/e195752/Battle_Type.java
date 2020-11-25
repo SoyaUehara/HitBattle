@@ -263,6 +263,7 @@ public class Battle_Type {
                     case "弁財天・神化":
                     case "ゾロ":
                     case "森蘭丸":
+                    case "アリア":
                         battle_typeList.add("反射");
                         break;
                     case "ゼウス":
