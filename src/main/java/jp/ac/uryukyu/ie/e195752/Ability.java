@@ -3,6 +3,17 @@ import java.util.ArrayList;
 import java.util.Random;
 
 //アビリティ
+/*
+デフォルト
+case "":
+    abilityList.add("");
+    abilityList.add("");
+    abilityList.add("");
+    abilityList.add("");
+    break;
+*/
+
+
 public class Ability {
     final private ArrayList<String> abilityList = new ArrayList<>();
     public Ability(String character, String attribute){
@@ -344,6 +355,49 @@ public class Ability {
                         abilityList.add("友情ブースト");
                         abilityList.add("SSターン短縮");
                         break;
+                    case "ガウェイン":
+                        abilityList.add("アンチウィンド");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("弱点キラーL");
+                        abilityList.add("超アンチワープ");
+                        break;
+                    case "ディジョン":
+                        abilityList.add("超アンチ重力バリア");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("弱点キラー");
+                        break;
+                    case "打出の小槌":
+                        abilityList.add("アンチダメージウォール");
+                        abilityList.add("アンチウィンド");
+                        abilityList.add("ロボットキラーM");
+                        abilityList.add("アンチブロック");
+                        break;
+                    case "ニュートン":
+                        abilityList.add("マインスイーパーL");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("ゲージ倍率保持");
+                        abilityList.add("アンチウィンド");
+                        break;
+                    case "アザゼル":
+                        abilityList.add("超アンチダメージウォール");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("ゲージ倍率保持");
+                        abilityList.add("アンチブロック");
+                        break;
+                    case "背徳ピストルズ":
+                        abilityList.add("超マインスイーパーM");
+                        abilityList.add("アンチダメージウォール");
+                        abilityList.add("リジェネ");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("底力M");
+                        break;
+                    case "フォルトゥナ":
+                        abilityList.add("マインスイーパーL");
+                        abilityList.add("SSターンアクセル");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("SSターンチャージ");
+                        break;
                 }
                 break;
             case "Water":
@@ -664,6 +718,60 @@ public class Ability {
                         abilityList.add("超アンチダメージウォール");
                         abilityList.add("アンチウィンド");
                         abilityList.add("火属性キラーM");
+                        break;
+                    case "タンザナイト":
+                        abilityList.add("アンチワープ");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("魔封じ");
+                        abilityList.add("アンチブロック");
+                        break;
+                    case "カメハメハα":
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("SSターン短縮");
+                        abilityList.add("ゲージ倍率保持");
+                        abilityList.add("アンチブロック");
+                        break;
+                    case "グィネヴィア":
+                        abilityList.add("超アンチワープ");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("超レーザーストップ");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("状態異常回復");
+                        break;
+                    case "瑠璃":
+                        abilityList.add("マインスイーパーM");
+                        abilityList.add("超アンチワープ");
+                        abilityList.add("鳥獣封じM");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("SSターン短縮");
+                        break;
+                    case "神農":
+                        abilityList.add("マインスイーパーL");
+                        abilityList.add("超アンチ重力バリア");
+                        abilityList.add("回復M");
+                        abilityList.add("状態異常回復");
+                        break;
+                    case "ウルズ":
+                        abilityList.add("超アンチダメージウォール");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("弱点キラー");
+                        break;
+                    case "十文字雷葉":
+                        abilityList.add("アンチダメージウォール");
+                        abilityList.add("幻妖キラーM");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("SSターン短縮");
+                        break;
+                    case "イソップ":
+                        abilityList.add("マインスイーパーM");
+                        abilityList.add("アンチダメージウォール");
+                        abilityList.add("超アンチウィンド");
+                        break;
+                    case "メルクリウス":
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("カウンターキラーM");
+                        abilityList.add("火属性耐性");
+                        abilityList.add("アンチ減速壁");
                         break;
                 }
                 break;
@@ -1034,6 +1142,57 @@ public class Ability {
                         abilityList.add("弱点キラーM");
                         abilityList.add("超アンチワープ");
                         abilityList.add("状態異常回復");
+                        break;
+                    case "ペリドット":
+                        abilityList.add("アンチ重力バリア");
+                        abilityList.add("鳥獣封じ");
+                        abilityList.add("SSターンアクセル");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("底力L");
+                        break;
+                    case "マゼラン":
+                        abilityList.add("ロボットキラーL");
+                        abilityList.add("魔族キラーL");
+                        abilityList.add("ユニバキラーL");
+                        abilityList.add("超アンチ重力バリア");
+                        abilityList.add("アンチ魔法陣");
+                        break;
+                    case "トライデント":
+                        abilityList.add("超アンチワープ");
+                        abilityList.add("魔封じL");
+                        abilityList.add("ドレイン");
+                        break;
+                    case "パスカル":
+                        abilityList.add("超アンチダメージウォール");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("友情ブーストL");
+                        abilityList.add("アンチ重力バリア");
+                        break;
+                    case "諸葛亮":
+                        abilityList.add("アンチダメージウォール");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("回復");
+                        abilityList.add("SSターンチャージM");
+                        break;
+                    case "ヤークトパンター":
+                        abilityList.add("アンチ重力バリア");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("水属性キラー");
+                        abilityList.add("状態異常回復");
+                        abilityList.add("SSターン短縮");
+                        abilityList.add("ダッシュM");
+                        break;
+                    case "西施":
+                        abilityList.add("マインスイーパーM");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("水属性キラー");
+                        break;
+                    case "梃子場亜流太":
+                        abilityList.add("マインスイーパーL");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("レーザーストップ");
+                        abilityList.add("アンチ減速壁");
                         break;
                 }
                 break;
@@ -1422,6 +1581,60 @@ public class Ability {
                         abilityList.add("アンチブロック");
                         abilityList.add("ダッシュ");
                         break;
+                    case "ゲーテ":
+                        abilityList.add("超アンチダメージウォール");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("SSターン短縮");
+                        break;
+                    case "フォーミュラ・アクセルα":
+                        abilityList.add("アンチ重力バリア");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("幻竜封じM");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("ダッシュ");
+                        break;
+                    case "ヴォーパルソード":
+                        abilityList.add("アンチダメージウォール");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("ゲージ倍率保持");
+                        abilityList.add("アンチブロック");
+                        break;
+                    case "リバティ":
+                        abilityList.add("マインスイーパーL");
+                        abilityList.add("アンチダメージウォール");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("回復M");
+                        break;
+                    case "ヘイムダル":
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("魔封じEL");
+                        break;
+                    case "物乃具姫":
+                        abilityList.add("飛行");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("SSターンチャージ");
+                        break;
+                    case "モノノケ少女":
+                        abilityList.add("超アンチワープ");
+                        abilityList.add("超レーザーストップ");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("ソウルスティール");
+                        break;
+                    case "イシュタル":
+                        abilityList.add("超アンチ重力バリア");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("重力バリアキラー");
+                        break;
+                    case "ユノー":
+                        abilityList.add("マインスイーパーL");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("弱点キラー");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("ダッシュ");
+                        break;
                 }
                 break;
             case "Darkness":
@@ -1625,13 +1838,13 @@ public class Ability {
                         break;
                     case "ベートーヴェンα":
                         abilityList.add("超アンチ重力バリア");
-                        abilityList.add("鳥獣キラーM");
+                        abilityList.add("鳥獣封じM");
                         abilityList.add("幻竜キラーM");
                         break;
                     case "ミネルヴァ":
                         abilityList.add("超アンチワープ");
                         abilityList.add("アンチブロック");
-                        abilityList.add("鳥獣キラーM");
+                        abilityList.add("鳥獣封じM");
                         break;
                     case "グングニルα":
                         abilityList.add("超アンチダメージウォール");
@@ -1761,6 +1974,60 @@ public class Ability {
                         abilityList.add("魔封じEL");
                         abilityList.add("アンチブロック");
                         abilityList.add("アンチ減速壁");
+                        break;
+                    case "マーチ":
+                        abilityList.add("アンチ重力バリア");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("ダッシュ");
+                        break;
+                    case "ねずみ小僧":
+                        abilityList.add("マインスイーパーM");
+                        abilityList.add("ロボットキラーM");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("底力M");
+                        abilityList.add("ダッシュM");
+                        break;
+                    case "タイガーアイ":
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("弱点キラーM");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("状態異常回復");
+                        break;
+                    case "アロンズロッドα":
+                        abilityList.add("アンチ重力バリア");
+                        abilityList.add("アンチ魔法陣");
+                        abilityList.add("無属性耐性");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("連撃キラーM");
+                        break;
+                    case "アルセーヌ・アナーキー":
+                        abilityList.add("アンチ重力バリア");
+                        abilityList.add("アンチワープ");
+                        abilityList.add("ファーストキラー");
+                        abilityList.add("超アンチ減速壁");
+                        abilityList.add("連撃キラー");
+                        abilityList.add("SSターンブースト");
+                        break;
+                    case "アルセーヌ・ファントム":
+                        abilityList.add("アンチ重力バリア");
+                        abilityList.add("超アンチウィンド");
+                        abilityList.add("プロテクション");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("ダッシュ");
+                        break;
+                    case "フランクリン":
+                        abilityList.add("マインスイーパーL");
+                        abilityList.add("友情コンボ×2");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("ダッシュ");
+                        break;
+                    case "柳生十兵衛":
+                        abilityList.add("超アンチ重力バリア");
+                        abilityList.add("アンチ減速壁");
+                        abilityList.add("アンチブロック");
+                        abilityList.add("SSターン短縮");
                         break;
                 }
                 break;

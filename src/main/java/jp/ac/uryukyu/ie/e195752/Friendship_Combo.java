@@ -265,6 +265,34 @@ public class Friendship_Combo {
                         friendship_comboList.add("超強貫通ホーミング18");
                         friendship_comboList.add("超強貫通毒ロックオン衝撃波6");
                         break;
+                    case "ガウェイン":
+                        friendship_comboList.add("ウォールセットトライデントレーザー");
+                        friendship_comboList.add("チップソー");
+                        break;
+                    case "ディヴィジョン":
+                        friendship_comboList.add("クロススティンガー");
+                        friendship_comboList.add("アタッチボム6");
+                        break;
+                    case "打出の小槌":
+                        friendship_comboList.add("超強貫通ホーミング18");
+                        friendship_comboList.add("超メテオ");
+                        break;
+                    case "ニュートン":
+                        friendship_comboList.add("超強乱気弾");
+                        friendship_comboList.add("超強クロスウェーブ");
+                        break;
+                    case "アザゼル":
+                        friendship_comboList.add("超強貫通ホーミング18");
+                        friendship_comboList.add("防スピアップ");
+                        break;
+                    case "背徳ピストルズ":
+                        friendship_comboList.add("爆撃");
+                        friendship_comboList.add("超強中距離毒拡散弾9");
+                        break;
+                    case "フォルトゥナ":
+                        friendship_comboList.add("超絶斬撃");
+                        friendship_comboList.add("ウォールボム");
+                        break;
                 }
                 break;
             case "Water":
@@ -512,6 +540,42 @@ public class Friendship_Combo {
                     case "上杉謙信":
                         friendship_comboList.add("トライデントダンクレーザーEL");
                         friendship_comboList.add("超強次元斬");
+                        break;
+                    case "タンザナイト":
+                        friendship_comboList.add("超強電撃");
+                        friendship_comboList.add("全敵超メテオ");
+                        break;
+                    case "カメハメハα":
+                        friendship_comboList.add("超強ソリッドバレット");
+                        friendship_comboList.add("電撃弾");
+                        break;
+                    case "グィネヴィア":
+                        friendship_comboList.add("貫通弱点ロックオン衝撃波5");
+                        friendship_comboList.add("反射衝撃波12");
+                        break;
+                    case "瑠璃":
+                        friendship_comboList.add("超強気弾");
+                        friendship_comboList.add("超絶斬撃");
+                        break;
+                    case "神農":
+                        friendship_comboList.add("放電");
+                        friendship_comboList.add("SS短縮弾");
+                        break;
+                    case "ウルズ":
+                        friendship_comboList.add("防御アップ");
+                        friendship_comboList.add("超絶爆発");
+                        break;
+                    case "十文字雷葉":
+                        friendship_comboList.add("スナイプバレット");
+                        friendship_comboList.add("シャイニングピラー");
+                        break;
+                    case "イソップ":
+                        friendship_comboList.add("超強拡大爆破弾");
+                        friendship_comboList.add("超強毒フレア");
+                        break;
+                    case "メルクリウス":
+                        friendship_comboList.add("超絶ホーミング12");
+                        friendship_comboList.add("超強防御ダウンブラスト");
                         break;
                 }
                 break;
@@ -784,6 +848,38 @@ public class Friendship_Combo {
                     case "豊臣秀吉":
                         friendship_comboList.add("超強ウェーブ");
                         friendship_comboList.add("超強クロスウェーブ");
+                        break;
+                    case "ペリドット":
+                        friendship_comboList.add("8方向炸裂弾");
+                        friendship_comboList.add("8方向レーザーEL");
+                        break;
+                    case "マゼラン":
+                        friendship_comboList.add("ウォールスルーバレット");
+                        friendship_comboList.add("全敵超落雷");
+                        break;
+                    case "トライデント":
+                        friendship_comboList.add("トライデントレーザーEL");
+                        friendship_comboList.add("ウォールセットトライデントレーザー");
+                        break;
+                    case "パスカル":
+                        friendship_comboList.add("超絶ホーミング12");
+                        friendship_comboList.add("スピードアップ");
+                        break;
+                    case "諸葛亮":
+                        friendship_comboList.add("貫通弱点ロックオン衝撃波5");
+                        friendship_comboList.add("超絶爆発");
+                        break;
+                    case "ヤークトパンター":
+                        friendship_comboList.add("トライデントレーザーEL");
+                        friendship_comboList.add("超絶爆発");
+                        break;
+                    case "西施":
+                        friendship_comboList.add("スピードアップ");
+                        friendship_comboList.add("超絶爆発");
+                        break;
+                    case "梃子場亜流太":
+                        friendship_comboList.add("衛星弾8");
+                        friendship_comboList.add("破裂斬撃弾");
                         break;
                 }
                 break;
@@ -1065,6 +1161,42 @@ public class Friendship_Combo {
                         friendship_comboList.add("超強全方位ショットガン");
                         friendship_comboList.add("超絶爆発");
                         break;
+                    case "ゲーテ":
+                        friendship_comboList.add("ツイン反射レーザーEL4");
+                        friendship_comboList.add("超強クロスウェーブ");
+                        break;
+                    case "フォーミュラ・アクセルα":
+                        friendship_comboList.add("スクランブルレーザーL");
+                        friendship_comboList.add("ボムスロー");
+                        break;
+                    case "ヴォーパルソード":
+                        friendship_comboList.add("ランページレーザーEL");
+                        friendship_comboList.add("超絶斬撃");
+                        break;
+                    case "リバティ":
+                        friendship_comboList.add("反射衝撃波12");
+                        friendship_comboList.add("中距離毒拡散弾9");
+                        break;
+                    case "ヘイムダル":
+                        friendship_comboList.add("超強貫通ホーミング18");
+                        friendship_comboList.add("超メテオ");
+                        break;
+                    case "物乃具姫":
+                        friendship_comboList.add("超強プラズマ");
+                        friendship_comboList.add("パワーフィールド");
+                        break;
+                    case "モノノケ少女":
+                        friendship_comboList.add("超強爆破拡散弾");
+                        friendship_comboList.add("超強スパークバレット");
+                        break;
+                    case "イシュタル":
+                        friendship_comboList.add("超強フレア");
+                        friendship_comboList.add("超絶爆発");
+                        break;
+                    case "ユノー":
+                        friendship_comboList.add("超強分裂貫通衝撃波3");
+                        friendship_comboList.add("超強拡大貫通ロックオン衝撃波");
+                        break;
                 }
                 break;
             case "Darkness":
@@ -1316,6 +1448,38 @@ public class Friendship_Combo {
                     case "源頼光":
                         friendship_comboList.add("超絶ホーミング12");
                         friendship_comboList.add("シャイニングピラー");
+                        break;
+                    case "マーチ":
+                        friendship_comboList.add("超強分裂貫通衝撃波3");
+                        friendship_comboList.add("エナジーソード");
+                        break;
+                    case "ねずみ小僧":
+                        friendship_comboList.add("超強分裂貫通衝撃波3");
+                        friendship_comboList.add("超どんぐり");
+                        break;
+                    case "タイガーアイ":
+                        friendship_comboList.add("超強拡大貫通ロックオン衝撃波");
+                        friendship_comboList.add("超絶爆発");
+                        break;
+                    case "アロンズロッドα":
+                        friendship_comboList.add("超強毒フレア");
+                        friendship_comboList.add("超絶爆発");
+                        break;
+                    case "アルセーヌ・アナーキー":
+                        friendship_comboList.add("クロス爆撃");
+                        friendship_comboList.add("反射衝撃波12");
+                        break;
+                    case "アルセーヌ・ファントム":
+                        friendship_comboList.add("パワードライブ");
+                        friendship_comboList.add("マーキングボム");
+                        break;
+                    case "フランクリン":
+                        friendship_comboList.add("超強電撃");
+                        friendship_comboList.add("超落雷");
+                        break;
+                    case "柳生十兵衛":
+                        friendship_comboList.add("ダブルエナジーサークルL");
+                        friendship_comboList.add("超絶斬撃");
                         break;
                 }
                 break;

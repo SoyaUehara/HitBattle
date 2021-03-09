@@ -19,14 +19,19 @@ public class Main {
             switch (attribute){
                 case "Fire":
                     System.out.println("選ばれた属性は火です。");
+                    break;
                 case "Water":
                     System.out.println("選ばれた属性は水です。");
+                    break;
                 case "Wood":
                     System.out.println("選ばれた属性は木です。");
+                    break;
                 case "Light":
                     System.out.println("選ばれた属性は光です。");
+                    break;
                 case "Darkness":
                     System.out.println("選ばれた属性は闇です。");
+                    break;
             }
             Question(character, attribute, selectList);
             boolean bo = true;

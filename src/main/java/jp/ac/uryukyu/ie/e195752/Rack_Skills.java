@@ -17,6 +17,8 @@ public class Rack_Skills {
                     case "ギルガメッシュ":
                     case "マルス":
                     case "真田昌幸":
+                    case "ニュートン":
+                    case "背徳ピストルズ":
                         rack_skillsList.add("友情コンボクリティカル");
                         break;
                     case "坂本龍馬":
@@ -27,6 +29,9 @@ public class Rack_Skills {
                     case "オオクニヌシ":
                     case "トパーズ":
                     case "足利義輝":
+                    case "岩融":
+                    case "ペルセウス":
+                    case "ガウェイン":
                         rack_skillsList.add("ガイド");
                         break;
                     case "リンツー":
@@ -41,6 +46,12 @@ public class Rack_Skills {
                     case "ルビー":
                     case "レクイエム":
                     case "静御前":
+                    case "マナ":
+                    case "ヒナタ":
+                    case "オシリス":
+                    case "ディヴィジョン":
+                    case "打出の小槌":
+                    case "アザゼル":
                         rack_skillsList.add("シールド");
                         break;
                     case "アグナムート":
@@ -73,6 +84,8 @@ public class Rack_Skills {
                     case "マチュ・ピチュ":
                     case "ワトソンα":
                     case "ブリュンヒルデ":
+                    case "マナ・アニマ":
+                    case "フォルトゥナ":
                         rack_skillsList.add("クリティカル");
                         break;
                 }
@@ -89,6 +102,11 @@ public class Rack_Skills {
                     case "レビィ":
                     case "鈴蘭":
                     case "大和α":
+                    case "ラベンダー":
+                    case "アトランティス":
+                    case "瑠璃":
+                    case "神農":
+                    case "十文字雷葉":
                         rack_skillsList.add("友情コンボクリティカル");
                         break;
                     case "ロミオ":
@@ -97,6 +115,10 @@ public class Rack_Skills {
                     case "シャトル・アクセル":
                     case "ミロク":
                     case "ノクターン":
+                    case "タンザナイト":
+                    case "グィネヴィア":
+                    case "イソップ":
+                    case "メルクリウス":
                         rack_skillsList.add("ガイド");
                         break;
                     case "ランスロット":
@@ -122,6 +144,10 @@ public class Rack_Skills {
                     case "サラスヴァティ":
                     case "佐々木小次郎":
                     case "モヘンジョダロ":
+                    case "ポセイドン":
+                    case "シリウス":
+                    case "上杉謙信":
+                    case "カメハメハα":
                         rack_skillsList.add("シールド");
                         break;
                     case "スサノオ":
@@ -139,6 +165,8 @@ public class Rack_Skills {
                     case "フリーズ":
                     case "ヤタガラス":
                     case "アンデルセン":
+                    case "ミソラ":
+                    case "ウルズ":
                         rack_skillsList.add("クリティカル");
                         break;
                 }
@@ -151,6 +179,8 @@ public class Rack_Skills {
                     case "陸奥宗光":
                     case "ヨグソトース":
                     case "ミョルニル":
+                    case "コカゲ":
+                    case "豊臣秀吉":
                         rack_skillsList.add("友情コンボクリティカル");
                         break;
                     case "武蔵坊弁慶":
@@ -163,6 +193,7 @@ public class Rack_Skills {
                     case "スルガト":
                     case "天叢雲":
                     case "セレナーデ":
+                    case "パスカル":
                         rack_skillsList.add("ガイド");
                         break;
                     case "ハンターキング":
@@ -188,6 +219,12 @@ public class Rack_Skills {
                     case "トート":
                     case "楊セン":
                     case "アルキメデス":
+                    case "ジャスミン":
+                    case "ペルセポネ":
+                    case "マゼラン":
+                    case "諸葛亮":
+                    case "ヤークトパンター":
+                    case "西施":
                         rack_skillsList.add("シールド");
                         break;
                     case "ヴァルキリー":
@@ -212,6 +249,10 @@ public class Rack_Skills {
                     case "ビリー・ザ・キッド":
                     case "神威α":
                     case "島津義弘":
+                    case "巴御前":
+                    case "ペリドット":
+                    case "トライデント":
+                    case "梃子場亜流太":
                         rack_skillsList.add("クリティカル");
                         break;
                 }
@@ -227,6 +268,9 @@ public class Rack_Skills {
                     case "アンチテーゼ":
                     case "ドローン・アクセル":
                     case "王昭君":
+                    case "ガネーシャ":
+                    case "ヘイムダル":
+                    case "ユノー":
                         rack_skillsList.add("友情コンボクリティカル");
                         break;
                     case "ロイゼ":
@@ -234,6 +278,12 @@ public class Rack_Skills {
                     case "ハイビスカス":
                     case "アロンズロッド":
                     case "王元姫":
+                    case "弁財天・神化":
+                    case "マルタ":
+                    case "森蘭丸":
+                    case "ヴォーパルソード":
+                    case "物乃具姫":
+                    case "モノノケ少女":
                         rack_skillsList.add("ガイド");
                         break;
                     case "ラー":
@@ -259,6 +309,10 @@ public class Rack_Skills {
                     case "真珠":
                     case "ペリノア":
                     case "アユタヤ":
+                    case "アリア":
+                    case "ゾロ":
+                    case "リバティ":
+                    case "イシュタル":
                         rack_skillsList.add("シールド");
                         break;
                     case "ゴットストライク":
@@ -284,6 +338,10 @@ public class Rack_Skills {
                     case "カメハメハ":
                     case "パーシヴァル":
                     case "レンブラント":
+                    case "牡丹":
+                    case "弁財天・進化":
+                    case "ゲーテ":
+                    case "フォーミュラ・アクセルα":
                         rack_skillsList.add("クリティカル");
                         break;
                 }
@@ -296,6 +354,9 @@ public class Rack_Skills {
                     case "茶々":
                     case "ルシファー&カエサル":
                     case "パンドラ":
+                    case "源頼光":
+                    case "ねずみ小僧":
+                    case "タイガーアイ":
                         rack_skillsList.add("友情コンボクリティカル");
                         break;
                     case "ジークフリート":
@@ -310,6 +371,7 @@ public class Rack_Skills {
                     case "ケロンα":
                     case "オペコ":
                     case "大谷吉継":
+                    case "アロンズロッドα":
                         rack_skillsList.add("ガイド");
                         break;
                     case "ワールド":
@@ -329,6 +391,12 @@ public class Rack_Skills {
                     case "ブリューナク":
                     case "トール":
                     case "コロンブス":
+                    case "P-47":
+                    case "ダンテ":
+                    case "猿飛佐助":
+                    case "マーチ":
+                    case "アルセーヌ・ファントム":
+                    case "柳生十兵衛":
                         rack_skillsList.add("シールド");
                         break;
                     case "ハーメルン":
@@ -353,6 +421,8 @@ public class Rack_Skills {
                     case "司馬昭":
                     case "フビライハン":
                     case "孫悟空α":
+                    case "アルセーヌ・アナーキー":
+                    case "フランクリン":
                         rack_skillsList.add("クリティカル");
                         break;
                 }
